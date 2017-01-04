@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Totally Rad User Names</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
+	<style>
+		#title{
+			text-align:center;
+			margin:0px;
+			font-size:6rem;
+		}
+		h2{
+			font-size:25px;
+		}
+		h5{
+			text-align:center;
+			margin:0px 0px 40px 0px;
+		}
+		#wrapper{
+			padding:20px;
+		}
+		form{
+			max-width:60%;
+			margin:0px auto;
+		}
+		#inputWrapper{
+			text-align:center;
+		}
+		.btn{
+			display:inline-block;
+			width:50%;
+	
+		}
+		.btn-group{
+			width:100%;
+			margin-top:50px;
+			text-align:center;
+		}
+		#wordContainer, #errorContainer{
+			margin:20px auto 0px;
+			padding:20px 30px;
+			border:solid 1px #ccc;
+			border-radius:4px;
+			min-height:20px;
+			overflow:hidden;
+			text-align:center;
+			max-width:60%;
+		}
+		#wordDiv{
+			font-weight:bold;
+			margin:10px;
+		}
+		#errorContainer{
+			font-weight:bold;
+			text-align:left;
+		}
+		.hide{
+			display:none;
+		}
+		.block{
+			display:block;
+		}
+		.inline_block{
+			display:inline-block;
+		}
+		.synonym{
+			display:inline-block;
+			padding:0px 10px;
+		}
+		footer{
+			margin-top:100px;
+			text-align:center;
+			height: 300px;
+			width: 100%;
+			z-index: 1000;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<h1 id="title"><span class="text-muted">Rad</span>Handle</h1>
+		<h5>Usernames, idiot.</h5>
+		<form autocomplete="off" class="well" onsubmit="event.preventDefault();">
+			<div>
+				<strong class="block">Enter Keywords:</strong>
+				<p class="text-muted">Must include a noun. Optionally include an ajective and / or verb.</p>
+			</div>
+			<div id="inputWrapper">
+				<div id="nounWrapper" class="input-group inline_block">
+					<input id="noun" class="form-control" type="text" placeholder="Noun" value="" />
+				</div>
+				<div class="input-group inline_block">
+					<input id="adjective" class="form-control" type="text" placeholder="Adjective" value="" />
+				</div>
+				<div class="input-group inline_block">
+					<input id="verb" class="form-control" type="text" placeholder="Verb" value="" />
+
+				</div>
+			</div>
+			<div class="btn-group">
+			
+				<button type="button" class="btn btn-default" onclick="NGA.userIsLazy()" >I'm Lazy</button>
+			
+			
+				<button type="button" class="btn btn-primary" onclick="NGA.analyzeInput.onSubmit()" >Submit</button>
+			</div>
+			
+		</form>
+		<div id="wordContainer" class="hide">
+			<h3>You shall henceforth be known as...</h3>
+			<h2><mark id="wordDiv"></mark></h2>
+		</div>
+		<div id="errorContainer" class="hide text-warning">There was an error with your query...</div>
+	</div>
+	<footer>
+		<div id="footerText">
+			<strong>App by <a href="http://brysonkruk.com">Bryson Kruk</a></strong>
+			<br>&copy; 2017 Bryson Kruk Design &amp; Development
+		</div>
+	</footer>
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

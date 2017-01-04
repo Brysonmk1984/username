@@ -1,0 +1,15 @@
+{
+	"prefix" : ["Ante", "Anti", "Circum", "Co", "De", "Dis", "Em", "En", "Epi", "Ex", "Extra", "Fore", "Homo", "Hyper", "Il", "Im", "Infra", "Inter", "Intra", "Macro", "Micro", "Mid", "Mis", "Mono", "Non", "Omni", "Para", "Post", "Pre", "Re", "Semi", "Sub", "Super", "Therm", "Trans", "Tri", "Un", "Uni"],
+	"suffix" : {
+		"noun" : ["acy", "al", "ance", "ence", "dom", "er", "or", "ism", "ist", "ity", "ment", "ness", "ship", "sion", "tion"],
+		"verb" : ["ate", "en", "ify", "fy",  "ize", "ise"],
+		"adjective" : ["able", "ible", "al", "esque", "ful", "ic", "ical", "ious", "ous", "ish", "ive", "less", "y"],
+		"adverb" : ["ly", "ward", "wards", "wise"]
+	},
+	"preposition" : ["With", "At", "From", "Into", "During", "Until", "Against", "Among", "Despite", "Towards", "Upon", "Of", "To", "In", "For", "On", "By", "About", "Like", "Over", "Off", "Up", "Within", "Under", "After", "Without"],
+	"test" : {
+		"nouns" : ["sun","moon","legs","arms","lungs","cat","dog","idea","computer","nerd","song", "axe", "boots", "cliff", "assasin", "fist", "blade", "snake", "lake", "water", "river", "chicken", "dinosaur", "lizard", "bird", "squid", "whale", "shark", "bear", "soldier", "fire", "lightning", "wind", "earth", "garbage"],
+		"adjectives" : ["blue", "red", "tired", "sick", "awesome", "boring", "nerdy", "tough", "healthy", "holy", "evil", "stern", "loud", "correct", "south", "intelligent", "soft", "hard", "sharp", "hot", "painful", "broken", "belligerent", "interesting", "south", "north", "loud", "cool", "crazy", "agile", "focused", "resilient", "powerful", "awkward"],
+		"verbs" : ["is", "are", "running", "jumping", "shooting", "belting", "thinking", "jogging", "loving", "lunge", "lift", "hover", "advise", "begin", "adopt", "avoid", "bet", "bomb", "carve", "destroy", "dupe", "forge", "fail", "grip", "kill", "paddle", "pray", "rejoice", "rebuff", "shock", "scratch", "vanquish", "stomp", "walk", "wail", "yell", "trap"]
+	}
+}
